@@ -542,6 +542,3 @@ exp(confint(treg4, type = "lr"))
   summary(treg4_ip7_int, conf.type = "lr")
 } #SENSITIVITY ANALYSIS
 
-
-
-
