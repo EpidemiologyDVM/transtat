@@ -395,7 +395,7 @@ exp(confint(treg4, type = "lr"))
   
   #PRED ORDER: Intercept, adult_inf, adult_sus, proph_sus, extIntercept, shape
   
-  #sac codes C: child; A: adult
+  #sar codes C: child; A: adult
   
   # Household SAR with and without prophylaxis
   sarCC0 <- hSAR(treg4, c(1, 0, 0, 0, 0, 0))
@@ -413,7 +413,7 @@ exp(confint(treg4, type = "lr"))
   #sar0_exp <- hSAR(treg6_exp, c(1, 0, 0))  #MODEL DOESNT EXIST
   #sar1_exp <- hSAR(treg6_exp, c(1, 1, 0))
   
-} #SAR COMPARISON
+} #SECONDARY ATTACK RATE (SAR) COMPARISON
 
 
 {
